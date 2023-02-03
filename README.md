@@ -25,7 +25,7 @@ The REST resources used are users and their social media posts. REST endpoints a
 
 2. The Docker command to create provision the Docker container with the MySQL database is:
 
-   * docker run --detach --env MYSQL_ROOT_PASSWORD=<insert-your-password> --env MYSQL_USER=social-media-user --env MYSQL_PASSWORD=<insert-your-password>> --env MYSQL_DATABASE=social-media-database --name mysql --publish 3306:3306 mysql:8-oracle *
+   * docker run --detach --env MYSQL_ROOT_PASSWORD=<insert-your-password> --env MYSQL_USER=social-media-user --env MYSQL_PASSWORD=<insert-your-password>> --env MYSQL_DATABASE=social-media-database --name mysql --publish 3306:3306 mysql:8-oracle
 
 3. This project has been built while following the Udemy Masterclass on Spring Framework
 and Spring Boot 3 (this project is not a git clone of the Masterclass sources).
